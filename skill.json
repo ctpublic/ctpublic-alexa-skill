@@ -1,0 +1,54 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Play the live stream for Connecticut Public.",
+          "examplePhrases": [
+            "Alexa, open Connecticut Public",
+            "Alexa, play Connecticut Public",
+            "Alexa, ask Connecticut Public to play"
+          ],
+          "keywords": [
+            "audio streaming"
+          ],
+          "name": "Connecticut Public - Live Stream",
+          "description": "Play the live stream for Connecticut Public.",
+          "smallIconUri": "https://api.ctpublic.org/alexa/images/alexa-small.png",
+          "largeIconUri": "https://api.ctpublic.org/alexa/images/alexa-large.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No special instructions",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://www.ctpublic.org/about/privacy-policy-and-terms-of-use",
+          "privacyPolicyUrl": "https://www.ctpublic.org/about/privacy-policy-and-terms-of-use"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
