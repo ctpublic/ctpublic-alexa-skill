@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ctpublic/ctpublic-alexa-skill"
+    "url": "https://github.com/ctpublic/ctpublic-alexa-skill.git"
   },
   "dependencies": {
     "ask-sdk-core": "^2.0.0",
