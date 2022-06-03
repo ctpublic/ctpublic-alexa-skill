@@ -1,18 +1,18 @@
 {
-  "name": "audio-streaming-example-skill",
-  "version": "2.0.0",
-  "description": "A starter template for an Alexa audio streaming skill.",
+  "name": "ctpublic-alexa-skill",
+  "version": "1.0.0",
+  "description": "Stream Connecticut Public Radio on Alexa-enabled devices.",
   "main": "index.js",
   "keywords": [
     "alexa",
     "skill",
     "audio streaming"
   ],
-  "author": "skilltemplates.com",
-  "license": "See license in ../LICENSE.txt",
+  "author": "Connecticut Public",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/skilltemplates/audio-stream-starter-alexa.git"
+    "url": "https://github.com/ctpublic/ctpublic-alexa-skill"
   },
   "dependencies": {
     "ask-sdk-core": "^2.0.0",

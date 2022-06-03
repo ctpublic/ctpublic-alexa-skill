@@ -1,12 +1,11 @@
 {
   "interactionModel": {
       "languageModel": {
-          "invocationName": "connecticut public",
+          "invocationName": "connecticut public radio",
           "intents": [
             {
                 "name": "AMAZON.NavigateHomeIntent",
                 "samples": [
-      
                 ]
               },
               {

@@ -3,17 +3,17 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Play the live stream for Connecticut Public.",
+          "summary": "Stream Connecticut Public Radio on Alexa-enabled devices.",
           "examplePhrases": [
-            "Alexa, open Connecticut Public",
-            "Alexa, play Connecticut Public",
-            "Alexa, ask Connecticut Public to play"
+            "Alexa, open Connecticut Public Radio",
+            "Alexa, play Connecticut Public Radio",
+            "Alexa, ask Connecticut Public Radio to play"
           ],
           "keywords": [
             "audio streaming"
           ],
-          "name": "Connecticut Public - Live Stream",
-          "description": "Play the live stream for Connecticut Public.",
+          "name": "Connecticut Public Radio",
+          "description": "Stream Connecticut Public Radio on Alexa-enabled devices.",
           "smallIconUri": "https://api.ctpublic.org/alexa/images/alexa-small.png",
           "largeIconUri": "https://api.ctpublic.org/alexa/images/alexa-large.png"
         }

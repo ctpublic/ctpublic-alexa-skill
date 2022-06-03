@@ -14,20 +14,14 @@ const STREAMS = [
       'art': {
         'sources': [
           {
-            'contentDescription': 'Connecticut Public',
-            'url': 'https://api.ctpublic.org/alexa/images/alexa-large.png',
-            'widthPixels': 512,
-            'heightPixels': 512,
+            'url': 'https://api.ctpublic.org/alexa/images/alexa-large.png'
           },
         ],
       },
       'backgroundImage': {
         'sources': [
           {
-            'contentDescription': 'Connecticut Public',
-            'url': 'https://api.ctpublic.org/alexa/images/alexa-xl.png',
-            'widthPixels': 1200,
-            'heightPixels': 800,
+            'url': 'https://api.ctpublic.org/alexa/images/alexa-xl.png'
           },
         ],
       },
