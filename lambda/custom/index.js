@@ -48,7 +48,7 @@ const PlayStreamIntentHandler = {
     const stream = STREAMS[0];
 
     handlerInput.responseBuilder
-      .speak(`starting ${stream.metadata.title}`)
+      .speak(`now playing ${stream.metadata.title}`)
       .addAudioPlayerPlayDirective('REPLACE_ALL', stream.url, stream.token, 0, null, stream.metadata);
 
     return handlerInput.responseBuilder
@@ -77,7 +77,7 @@ const AboutIntentHandler = {
       && handlerInput.requestEnvelope.request.intent.name === 'AboutIntent';
   },
   handle(handlerInput) {
-    const speechText = 'This is an audio streaming skill that was built with a free template from skill templates dot com';
+    const speechText = 'This is an audio streaming skill by Connecticut Public Radio.';
 
     return handlerInput.responseBuilder
       .speak(speechText)
